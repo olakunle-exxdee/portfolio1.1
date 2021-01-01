@@ -1,0 +1,63 @@
+.wrapper {
+  .resume-container {
+    padding-top: 2rem;
+
+    button {
+      cursor: pointer;
+      text-transform: capitalize;
+      text-align: center;
+      padding: 1.5rem 3rem;
+      outline: none;
+      border-radius: 5px;
+      transition: background 300ms ease-in-out;
+      background: #000e35;
+      color: #fff;
+      font-size: 1.5rem;
+      border: 1px solid #000e35;
+      &:hover {
+        background: #000314;
+      }
+    }
+    @media only screen and (min-width: 44em) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        padding: 1.5rem 4rem;
+      }
+    }
+  }
+  .main-header {
+    background: url(./back.jpg);
+    color: transparent;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 1rem 0;
+    font-size: 3rem;
+    transition: font-size 300ms ease-in;
+    @media only screen and (min-width: 35em) {
+      font-size: 4rem;
+    }
+    @media only screen and (min-width: 50em) {
+      font-size: 5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.7rem;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 44em) {
+    text-align: center;
+    p {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+}

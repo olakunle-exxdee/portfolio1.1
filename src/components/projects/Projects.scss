@@ -1,0 +1,91 @@
+.wrapper-projects {
+  margin: 0 auto;
+  max-width: 90rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+.projects {
+  background: #ffffff;
+  margin-bottom: 2rem;
+  font-weight: 400;
+
+  .project-details {
+    padding: 0 1rem;
+    h2 {
+      font-size: 3rem;
+      text-transform: capitalize;
+      padding: 2rem 0;
+    }
+  }
+
+  .tech-used {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+
+    p {
+      background: #f5f5f5;
+      padding: 0.5rem 1.3rem;
+      border-radius: 50px;
+      text-transform: capitalize;
+    }
+    p + p {
+      margin-left: 1rem;
+    }
+  }
+  .project-btn {
+    padding: 6rem 1rem 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a + a {
+      margin-left: 2rem;
+    }
+    button,
+    a {
+      text-transform: capitalize;
+      width: 100%;
+      padding: 1.5rem 0;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 300ms ease-in-out;
+      text-align: center;
+    }
+
+    button:nth-child(2) {
+      background: #000e35;
+      color: #fff;
+      border: 1px solid #000e35;
+      &:hover {
+        background: #000314;
+      }
+    }
+    button:nth-child(2) {
+      background: #fff;
+      border: 1px solid #808080;
+      &:hover {
+        background: #f3f3f3;
+      }
+    }
+    .live {
+      background: #000e35;
+      color: #fff;
+      border: 1px solid #000e35;
+      &:hover {
+        background: #000314;
+      }
+    }
+    .github {
+      background: #fff;
+      border: 1px solid #808080;
+      &:hover {
+        background: #f3f3f3;
+      }
+    }
+  }
+}
