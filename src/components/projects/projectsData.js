@@ -39,30 +39,18 @@ const data = [
   },
   {
     id: 5,
-    image: image8,
-    title: "finders",
-    paragraph: "Finders is a simple website where gifts can be bought.",
-    tech: {
-      one: "react",
-      two: "scss",
-      three: "react",
-    },
-    live: "https://zinders.netlify.app",
-    git: "https://github.com",
-  },
-  {
-    id: 7,
     image: image5,
     title: "Cryto App",
     paragraph: " This App shows let you search any cryto and display details  ",
     tech: {
       one: "react",
-      two: "react-router",
-      three: "css",
-      live: "https://infallible-montalcini-84c4c4.netlify.app/",
-      git: "https://github.com/olakunle-exxdee/Bitcoin-App",
+      two: "css",
+      three: "react",
     },
+    live: "https://coingeckoapi.netlify.app",
+    git: "https://github.com/olakunle-exxdee/Bitcoin-App",
   },
+
   {
     id: 2,
     image: image3,

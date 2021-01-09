@@ -40,7 +40,9 @@ const Nav = () => {
             <Link to="projects-id" spy={true} smooth={true} duration={1000}>
               <li>Projects</li>
             </Link>
-            <li>Contacts</li>
+            <Link to="footer" spy={true} smooth={true} duration={1000}>
+              <li>Contacts</li>
+            </Link>
           </ul>
         </div>
       </nav>
