@@ -18,13 +18,14 @@
       }
     }
     .hamburger {
-      z-index: 11;
+      cursor: pointer;
       .openclose {
         display: inline-block;
         font-size: 2rem;
         background: transparent;
         outline: none;
         border: none;
+        transition: all 200ms ease-in;
         @media only screen and (min-width: 44em) {
           display: none;
         }
@@ -35,22 +36,17 @@
   &__two {
     transition: all 400ms ease-in;
     text-align: center;
-    background: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    transform: translate(-200%, 100%);
-    z-index: 10;
-    // border: 2px solid black;
-
+    height: 0;
+    overflow: hidden;
+    transition: all 200ms ease-in;
     &.open {
-      transform: translate(0%, 0%);
+      height: auto;
+      overflow-y: hidden;
+      transition: all 200ms ease-in;
     }
     .links {
       li {
-        padding: 6rem 0;
+        padding: 2rem 0;
         cursor: pointer;
         color: #000e35;
         transition: all 200ms ease-in;
