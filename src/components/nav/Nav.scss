@@ -18,14 +18,12 @@
       }
     }
     .hamburger {
-      cursor: pointer;
       .openclose {
         display: inline-block;
         font-size: 2rem;
         background: transparent;
         outline: none;
         border: none;
-        transition: all 200ms ease-in;
         @media only screen and (min-width: 44em) {
           display: none;
         }
@@ -36,13 +34,15 @@
   &__two {
     transition: all 400ms ease-in;
     text-align: center;
+    background: #fff;
+    width: 100%;
     height: 0;
     overflow: hidden;
-    transition: all 200ms ease-in;
+
+    // border: 2px solid black;
+
     &.open {
       height: auto;
-      overflow-y: hidden;
-      transition: all 200ms ease-in;
     }
     .links {
       li {

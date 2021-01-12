@@ -40,9 +40,6 @@ const Nav = () => {
             <Link to="/projects">
               <li>Projects</li>
             </Link>
-            <Link to="/footer">
-              <li>Contacts</li>
-            </Link>
           </ul>
         </div>
       </nav>
