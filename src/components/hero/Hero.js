@@ -17,7 +17,11 @@ const Hero = () => {
             others to create software.
           </p>
           <div className="resume-container">
-            <a href="twiiter.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://drive.google.com/file/d/1ZB6AEe0N1ubQao4WshG0NjLcZfp-ojDc/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="resume"> resume</button>
             </a>
           </div>
