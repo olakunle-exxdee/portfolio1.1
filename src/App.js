@@ -12,8 +12,8 @@ function App() {
         <Nav />
         <Switch>
           <Route path="/" exact component={Hero} />
-          <Route path="/skills" component={About} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/skills" exact component={About} />
+          <Route path="/projects" exact component={Projects} />
         </Switch>
       </BrowserRouter>
     </div>

@@ -1,5 +1,6 @@
 import "./Hero.scss";
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { Redirect } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
           <h1 className="main-header">
             I Build Functional Websites & Develop Better Web App.
           </h1>
-          <p>
+          <p className="hello">
             I'm a Front-end/Web developer with foundation in computer science
             from Lagos,<span>Nigeria</span>. I'm passionate about web design,
             web development, clean and readable code which can be used by me and
@@ -18,7 +19,7 @@ const Hero = () => {
           </p>
           <div className="resume-container">
             <a
-              href="https://drive.google.com/file/d/1ZB6AEe0N1ubQao4WshG0NjLcZfp-ojDc/view?usp=sharing"
+              href="https://drive.google.com/file/d/1P_fz_SKBr3H3KBkXfEvEC9JZZSWQWXnv/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

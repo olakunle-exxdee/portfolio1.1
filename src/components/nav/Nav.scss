@@ -1,7 +1,11 @@
 .navbar {
+  .fas {
+    cursor: pointer;
+  }
   a {
     color: #000e35;
   }
+
   &__one {
     display: flex;
     justify-content: space-between;

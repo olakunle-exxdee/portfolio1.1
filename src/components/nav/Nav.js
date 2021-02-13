@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { GoThreeBars } from "react-icons/go";
 import "./Nav.scss";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Nav = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -34,12 +34,12 @@ const Nav = () => {
             <Link to="/">
               <li>Home</li>
             </Link>
-            <Link to="/skills">
+            <NavLink to="/skills">
               <li>Skills</li>
-            </Link>
-            <Link to="/projects">
+            </NavLink>
+            <NavLink to="/projects">
               <li>Projects</li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
       </nav>
