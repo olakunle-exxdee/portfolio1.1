@@ -12,14 +12,14 @@ const Hero = () => {
             I Build Functional Websites & Develop Better Web App.
           </h1>
           <p className="hello">
-            I'm a Front-end/Web developer with foundation in computer science
-            from Lagos,<span>Nigeria</span>. I'm passionate about web design,
-            web development, clean and readable code which can be used by me and
-            others to create software.
+            I'm a Front-end Engineer with a vast engineering foundation in
+            computer science from Lagos. I’m passionate about designing around
+            the web, writing clean and readable code that helps to solve
+            real-world problems. I'm also a lifelong learner.
           </p>
           <div className="resume-container">
             <a
-              href="https://drive.google.com/file/d/1P_fz_SKBr3H3KBkXfEvEC9JZZSWQWXnv/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QJJIxxRU2Htb8ZDoT8Z5l8ItI9bDPZP_/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
