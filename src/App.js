@@ -1,9 +1,10 @@
 import "./App.scss";
 import { BrowserRouter } from "react-router-dom";
 import Nav from "./components/nav/Nav";
-import Skills from "./components/about/Skills";
+import Skills from "./components/skills/Skills";
 import Project from "./components/projects/Projects";
 import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Hero />
-        <Skills />
+        <About />
         <Project />
+        <Skills />
       </BrowserRouter>
     </div>
   );

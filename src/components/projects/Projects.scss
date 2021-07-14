@@ -1,5 +1,5 @@
 .wrapper-projects {
-  margin: 0 auto;
+  margin: 4rem auto;
   max-width: 90rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -48,9 +48,7 @@
   }
    @media only screen and (min-width: 400px) {
 
-    // img{
-    //   height: 250px;
-    // }
+   
    }
 
 }

@@ -50,6 +50,22 @@ const Nav = () => {
               <LinkScroll
                 onClick={() => setShowLinks(false)}
                 activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={300}
+                onSetActive={() => {
+                  setActiveLink("about");
+                }}
+                className="link-list"
+              >
+                about
+              </LinkScroll>
+            </li>
+            <li>
+              <LinkScroll
+                onClick={() => setShowLinks(false)}
+                activeClass="active"
                 to="skills"
                 spy={true}
                 smooth={true}

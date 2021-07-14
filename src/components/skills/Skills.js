@@ -7,11 +7,11 @@ import {
   FaNode,
 } from "react-icons/fa";
 import { SiJavascript, SiBootstrap } from "react-icons/si";
-import "./About.scss";
+import "./skills.scss";
 
 const Skills = () => {
   return (
-    <section id="skills" className="about-section">
+    <section id="skills" className="skills-section">
       <div className="container">
         <div className="wrapper-about">
           <div className="heading">
