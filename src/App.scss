@@ -1,5 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+:root{
+  
+   --purple: #5221E6;
+   --deep-black:#181823;
+   --text-white: #ffffff;
+   --black:#000000;
+   --text-grey:#8491A0;
+}
+// .ggg{
+//    --purple: #F2994A;
+//    --deep-black:rgba(60, 62, 125, 0.19);
+//    --text-white: #ffffff;
+//    --black:#0F1145;
+//    --text-grey:#8476AA;
+// }
 *,
 *::before,
 *::after {
@@ -9,14 +25,15 @@
 }
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Sen',sans-serif;
   font-size: 1.5rem;
-  background: #f0f2f3;
-  color: #000000;
+  background: var(--black);
+  color: var(--text-white);
   line-height: 1.2;
-  scroll-behavior: smooth;
+
 }
 
 .container {
@@ -26,36 +43,50 @@ body {
   padding: 0 2.4rem;
 }
 
+
 a {
   text-decoration: none;
+  font-family: 'Sen',
+  sans-serif;
+}
+button{
+  font-family: 'Sen',
+  sans-serif;
 }
 img {
   display: block;
   width: 100%;
 }
 
-.active {
-  text-decoration: underline;
-}
+
 li {
   list-style: none;
 }
 
+
 .heading {
   padding: 4rem 0;
 
+   
+   
+  
+  
   .all-header {
-    margin: 2rem 0;
-    background: url(./components/hero/back.jpg);
-    color: transparent;
-    background-size: cover;
-    background-clip: text;
+    margin: 2rem auto;
+     background: -webkit-linear-gradient(var(--purple), var(--deep-black));
+     background-clip: text;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: 1rem 0;
     font-size: 3.5rem;
-    transition: font-size 300ms ease-in;
+    transition: font-size 300ms ease-in-out;
+    max-width: 500px;
+   
   }
-  @media only screen and (min-width: 35em) {
+   p {
+     color: var(--text-grey);
+   }
+  @media only screen and (min-width: 700px) {
     .all-header {
       font-size: 5rem;
       text-align: center;
@@ -66,6 +97,7 @@ li {
       text-align: center;
       max-width: 500px;
       margin: 0 auto;
+
     }
   }
 }

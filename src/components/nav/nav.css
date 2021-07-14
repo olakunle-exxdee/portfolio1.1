@@ -1,0 +1,51 @@
+
+.navbar-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+.navbar-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #181823;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateX(-1000%);
+  transition: transform 600ms ease-in-out;
+  z-index: 10;
+}
+.open {
+  transform: translateX(0%);
+}
+.logo {
+  cursor: pointer;
+  color: var(--purple);
+ 
+}
+.open-icon {
+  z-index: 11 !important;
+}
+
+.link-list {
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--text-white);
+  background: transparent;
+  padding: 2rem 4rem ;
+  display: inline-block;
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 300ms ease-in-out;
+  text-transform: uppercase;
+}
+.link-list:hover{
+  background: var(--purple);
+}

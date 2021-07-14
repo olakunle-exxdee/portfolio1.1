@@ -1,14 +1,21 @@
-import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaGitAlt } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaSass,
+  FaReact,
+  FaGitAlt,
+  FaNode,
+} from "react-icons/fa";
 import { SiJavascript, SiBootstrap } from "react-icons/si";
 import "./About.scss";
 
-const About = () => {
+const Skills = () => {
   return (
-    <section id="skills-id" className="about-section">
+    <section id="skills" className="about-section">
       <div className="container">
         <div className="wrapper-about">
           <div className="heading">
-            <h1 className="all-header">Take a look at my Skills.</h1>
+            <h1 className="all-header">Take a look at my Skillsets.</h1>
             <p className="all-header-p">
               These are my skills and this contains all the technologies and
               programming languages that I have learnt until now. I am
@@ -16,6 +23,7 @@ const About = () => {
               often.
             </p>
           </div>
+
           <div className="about-details">
             <div className="items">
               <div className="icons">
@@ -51,6 +59,14 @@ const About = () => {
             </div>
             <div className="items">
               <div className="icons">
+                <FaNode />
+              </div>
+              <div className="lang">
+                <p>Node</p>
+              </div>
+            </div>
+            <div className="items">
+              <div className="icons">
                 <FaGitAlt />
               </div>
               <div className="lang">
@@ -80,4 +96,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Skills;

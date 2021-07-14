@@ -1,20 +1,18 @@
 import "./App.scss";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import About from "./components/about/About";
-import Hero from "./components/hero/Hero";
+import { BrowserRouter } from "react-router-dom";
 import Nav from "./components/nav/Nav";
-import Projects from "./components/projects/Projects";
+import Skills from "./components/about/Skills";
+import Project from "./components/projects/Projects";
+import Hero from "./components/hero/Hero";
 
 function App() {
   return (
     <div id="app-id" className="App">
       <BrowserRouter>
         <Nav />
-        <Switch>
-          <Route path="/" exact component={Hero} />
-          <Route path="/skills" exact component={About} />
-          <Route path="/projects" exact component={Projects} />
-        </Switch>
+        <Hero />
+        <Skills />
+        <Project />
       </BrowserRouter>
     </div>
   );
