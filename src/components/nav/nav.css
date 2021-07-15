@@ -1,4 +1,8 @@
 
+.navbar{
+  background: var(--black);
+ 
+}
 .navbar-one {
   display: flex;
   justify-content: space-between;
@@ -15,8 +19,8 @@
   top: 0;
   bottom: 0;
   right: 0;
-  transform: translateX(-1000%);
-  transition: transform 600ms ease-in-out;
+  transform: translateX(-400%);
+  transition: all 400ms ease-in-out;
   z-index: 10;
 }
 .open {
@@ -27,6 +31,7 @@
   color: var(--purple);
  
 }
+
 .open-icon {
   z-index: 11 !important;
 }
@@ -43,9 +48,61 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   text-transform: uppercase;
 }
 .link-list:hover{
-  background: var(--purple);
+  opacity: 0.9;
 }
+.active{
+  background: var(--purple);
+  transition: all 300ms ease-in-out;
+}
+
+
+ @media only screen and (min-width: 1000px){
+  
+   .hamburger {
+     display: none;
+
+   }
+   .navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 2rem 0;
+     
+   }
+    .fixed {
+      position: fixed;
+      top: 0;
+      width: 90%;
+      max-width:100%;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      z-index: 10000;
+      transition: position 300ms ease-in-out;
+    }
+
+   .navbar-one {
+     display: block;
+     padding: 2rem 0;
+   }
+
+   .navbar-two {
+     background: var(--black);
+     position: relative;
+     transform: translateX(0%);
+    
+   }
+   .links{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+   .link-list{
+     margin: 0;
+   }
+
+ }

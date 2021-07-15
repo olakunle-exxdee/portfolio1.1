@@ -29,6 +29,9 @@ const Projects = () => {
                   <a href={live} target="_blank" rel="noreferrer">
                     live
                   </a>
+                  <a href={live} target="_blank" rel="noreferrer">
+                    git
+                  </a>
                 </div>
               </div>
             );

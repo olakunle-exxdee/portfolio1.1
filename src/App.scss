@@ -67,10 +67,7 @@ li {
 .heading {
   padding: 4rem 0;
 
-   
-   
-  
-  
+    
   .all-header {
     margin: 2rem auto;
      background: -webkit-linear-gradient(var(--purple), var(--deep-black));
@@ -88,6 +85,7 @@ li {
      line-height: 3rem;
    }
   @media only screen and (min-width: 700px) {
+    
     .all-header {
       font-size: 5rem;
       text-align: center;

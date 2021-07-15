@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./nav.css";
-import { Link } from "react-router-dom";
+
 import { Divide as Hamburger } from "hamburger-react";
 import { Link as LinkScroll } from "react-scroll";
 
@@ -17,13 +17,11 @@ const Nav = () => {
 
   return (
     <div className="container">
-      <nav className="navbar">
+      <nav className={scrollActive ? "navbar fixed" : "navbar"}>
         <div className="navbar-one">
-          <Link to="/">
-            <h1 className="logo">OLAKUNLE</h1>
-          </Link>
+          <h1 className="logo">OLAKUNLE</h1>
 
-          <div className={`${showLinks ? "open-icon" : ""}`}>
+          <div className={`${showLinks ? "hamburger open-icon" : "hamburger"}`}>
             <Hamburger size={24} toggled={showLinks} toggle={setShowLinks} />
           </div>
         </div>
@@ -41,41 +39,11 @@ const Nav = () => {
                 onSetActive={() => {
                   setActiveLink("home");
                 }}
-                className="link-list"
+                className={
+                  activeLink === "home" ? "link-list active" : "link-list"
+                }
               >
                 home
-              </LinkScroll>
-            </li>
-            <li>
-              <LinkScroll
-                onClick={() => setShowLinks(false)}
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                duration={300}
-                onSetActive={() => {
-                  setActiveLink("about");
-                }}
-                className="link-list"
-              >
-                about
-              </LinkScroll>
-            </li>
-            <li>
-              <LinkScroll
-                onClick={() => setShowLinks(false)}
-                activeClass="active"
-                to="skills"
-                spy={true}
-                smooth={true}
-                duration={300}
-                onSetActive={() => {
-                  setActiveLink("skills");
-                }}
-                className="link-list"
-              >
-                Skills
               </LinkScroll>
             </li>
             <li>
@@ -89,9 +57,30 @@ const Nav = () => {
                 onSetActive={() => {
                   setActiveLink("projects");
                 }}
-                className="link-list"
+                className={
+                  activeLink === "projects" ? "link-list active" : "link-list"
+                }
               >
                 Projects
+              </LinkScroll>
+            </li>
+
+            <li>
+              <LinkScroll
+                onClick={() => setShowLinks(false)}
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                duration={300}
+                onSetActive={() => {
+                  setActiveLink("skills");
+                }}
+                className={
+                  activeLink === "skills" ? "link-list active" : "link-list"
+                }
+              >
+                Skills
               </LinkScroll>
             </li>
           </ul>

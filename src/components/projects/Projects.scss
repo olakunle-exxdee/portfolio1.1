@@ -10,7 +10,6 @@
    }
 
     @media only screen and (min-width: 700px) {
-    
       gap: 4rem;
     }
 
@@ -51,6 +50,9 @@
   a:hover {
       background: var(--purple);
       color: var(--text-white);
+  }
+  .project-btn{
+    display: flex;
   }
    @media only screen and (min-width: 400px) {
 
