@@ -13,7 +13,7 @@ const Hero = () => {
             <p className="hello">Front-End Developer</p>
             <div className="resume-container">
               <a
-                href="https://drive.google.com/file/d/1QJJIxxRU2Htb8ZDoT8Z5l8ItI9bDPZP_/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QV7uhYWQgldPpntjD3_foxNUXDb9p1Lr/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

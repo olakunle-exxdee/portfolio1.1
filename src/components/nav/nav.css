@@ -2,12 +2,14 @@
 .navbar{
   background: var(--black);
  
+ 
 }
 .navbar-one {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
+  
 }
 .navbar-two {
   display: flex;
@@ -73,7 +75,7 @@
      padding: 2rem 0;
      
    }
-    .fixed {
+    /* .fixed {
       position: fixed;
       top: 0;
       width: 90%;
@@ -83,7 +85,7 @@
       right: 0;
       z-index: 10000;
       transition: position 300ms ease-in-out;
-    }
+    } */
 
    .navbar-one {
      display: block;

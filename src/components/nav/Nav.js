@@ -32,15 +32,15 @@ const Nav = () => {
               <LinkScroll
                 onClick={() => setShowLinks(false)}
                 activeClass="active"
-                to="home"
+                to="app-id"
                 spy={true}
                 smooth={true}
                 duration={300}
                 onSetActive={() => {
-                  setActiveLink("home");
+                  setActiveLink("app-id");
                 }}
                 className={
-                  activeLink === "home" ? "link-list active" : "link-list"
+                  activeLink === "app-id" ? "link-list active" : "link-list"
                 }
               >
                 home
