@@ -13,7 +13,7 @@ const Hero = () => {
             <p className="hello">
               I’m a Front-end Developer with a Computer Science foundation from
               LAGOS . I am very passionate about the web and writing clean code
-              that helps to solve real-world problems
+              that helps to solve real-world problems.
             </p>
             <div className="resume-container">
               <a
