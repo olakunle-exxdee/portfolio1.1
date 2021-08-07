@@ -1,5 +1,10 @@
-.skills-section{
+.skills-section {
   margin: 4rem 0;
+  padding: 2rem 0;
+
+  @media only screen and (min-width: 700px) {
+    margin: 8rem 0;
+  }
 }
 
 .about-details {
@@ -15,8 +20,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background:var(--deep-black);
- 
+  background: var(--deep-black);
+
   transition: transform 300ms ease-in-out;
   .lang {
     width: 80%;
@@ -33,3 +38,10 @@
     align-items: center;
   }
 }
+
+// @media only screen and (min-width: 700px) {
+//   .skills-section {
+//     margin: 8rem 0;
+//     background: chocolate;
+//   }
+// }

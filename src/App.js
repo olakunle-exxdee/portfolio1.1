@@ -3,6 +3,7 @@ import Nav from "./components/nav/Nav";
 import Skills from "./components/skills/Skills";
 import Project from "./components/projects/Projects";
 import Hero from "./components/hero/Hero";
+import Footer from "./components/footer/Footer";
 // import About from "./components/about/About";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Project />
       <Skills />
+      <Footer />
     </div>
   );
 }

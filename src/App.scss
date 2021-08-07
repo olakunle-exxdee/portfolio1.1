@@ -1,13 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
-
-:root{
-  
-   --purple: #5221E6;
-   --deep-black:#181823;
-   --text-white: #ffffff;
-   --black:#000000;
-   --text-grey:#8491A0;
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
+:root {
+  --purple: #5221e6;
+  --deep-black: #181823;
+  --text-white: #ffffff;
+  --black: #000000;
+  --text-grey: #8491a0;
 }
 // .ggg{
 //    --purple: #F2994A;
@@ -28,12 +25,11 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Sen',sans-serif;
+  font-family: "Sen", sans-serif;
   font-size: 1.5rem;
   background: var(--black);
   color: var(--text-white);
   line-height: 1.2;
-
 }
 
 .container {
@@ -41,52 +37,43 @@ body {
   margin: 0 auto;
   max-width: 120rem;
   padding: 0 2.4rem;
- 
 }
-
 
 a {
   text-decoration: none;
-  font-family: 'Sen',
-  sans-serif;
+  font-family: "Sen", sans-serif;
 }
-button{
-  font-family: 'Sen',
-  sans-serif;
+button {
+  font-family: "Sen", sans-serif;
 }
 img {
   display: block;
   width: 100%;
 }
 
-
 li {
   list-style: none;
 }
 
-
 .heading {
   padding: 4rem 0;
 
-    
   .all-header {
     margin: 2rem auto;
-     background: -webkit-linear-gradient(var(--purple), var(--deep-black));
-     background-clip: text;
+    background: -webkit-linear-gradient(var(--purple), var(--deep-black));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem 0;
     font-size: 3.5rem;
     transition: font-size 300ms ease-in-out;
     max-width: 500px;
-   
   }
-   p {
-     color: var(--text-grey);
-     line-height: 3rem;
-   }
+  p {
+    color: var(--text-grey);
+    line-height: 3rem;
+  }
   @media only screen and (min-width: 700px) {
-    
     .all-header {
       font-size: 5rem;
       text-align: center;
@@ -97,7 +84,6 @@ li {
       text-align: center;
       max-width: 500px;
       margin: 0 auto;
-
     }
   }
 }

@@ -1,0 +1,22 @@
+.links-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.footer-links svg {
+  width: 36px;
+  height: 36px;
+}
+.svg {
+  transition: opacity 300ms ease-in-out;
+}
+.svg:hover {
+  opacity: 0.8;
+}
+.personal {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+}

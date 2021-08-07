@@ -1,119 +1,102 @@
-
-.hero{
- padding-top: 4rem;
-   @media only screen and (min-width: 1000px){
-     padding-top: 8rem;
-   }
+.hero {
+  padding-top: 4rem;
+  @media only screen and (min-width: 1000px) {
+    padding-top: 8rem;
+  }
 }
 .wrapper {
   padding-top: 4rem;
   max-width: 700px;
   margin: 0 auto;
 
-.main-header {
-  padding: 1rem 0;
-  font-size: 3rem;
-}
-.hello {
-  color: var(--text-grey);
-  font-size: 2rem;
-  padding: 1rem 0;
-}
-.resume-container {
-  padding-top: 1rem;
-}
- .resume {
-   cursor: pointer;
-   text-align: center;
-   padding: 1.5rem 3rem;
-   outline: none;
-   transition: opacity 300ms ease-in-out;
-   background: var(--purple);
-   color: var(--text-white);
-   font-size: 1.2rem;
-   text-transform: uppercase;
-   font-weight: 700;
-   border: 1px solid var(--purple);
+  .main-header {
+    padding: 1rem 0;
+    font-size: 3rem;
+  }
+  .hello {
+    color: var(--text-grey);
+    font-size: 1.8rem;
+    padding: 1rem 0;
+  }
+  .resume-container {
+    padding-top: 1rem;
+  }
+  .resume {
+    cursor: pointer;
+    text-align: center;
+    padding: 1.5rem 3rem;
+    outline: none;
+    transition: opacity 300ms ease-in-out;
+    background: var(--purple);
+    color: var(--text-white);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid var(--purple);
 
-   &:hover {
-     opacity: 0.8;
-   }
- }
- .footer {
-   padding: 2rem 0;
-
- }
-
-
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .footer-hero {
+    padding: 2rem 0;
+  }
 
   .links {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 100px;
-
   }
-   .svg {
-     transition: opacity 300ms ease-in-out;
-   }
-  .svg:hover{
+  .svg {
+    transition: opacity 300ms ease-in-out;
+  }
+  .svg:hover {
     opacity: 0.8;
   }
- 
 
-   @media only screen and (min-width: 400px) {
-    
-     .main-header {
-       font-size: 4rem;
-      }
-      .hello{
-        font-size: 3rem;
-      }
-   }
-
-   @media only screen and (min-width: 700px) {
-     max-width: 1000px;
-    .main-header{
-      font-size: 5rem;
-      
+  @media only screen and (min-width: 400px) {
+    .main-header {
+      font-size: 4rem;
     }
     .hello {
-      font-size: 4rem;
-       padding: 1rem 0;
+      font-size: 1.8rem;
     }
-    .resume{
+  }
+
+  @media only screen and (min-width: 700px) {
+    max-width: 1000px;
+    .main-header {
+      font-size: 5rem;
+    }
+    .hello {
+      font-size: 2rem;
+      padding: 1rem 0;
+    }
+    .resume {
       font-size: 2rem;
       padding: 1.5rem 4rem;
     }
-   }
+  }
 
-   @media only screen and (min-width: 1000px) {
-     padding: 4rem  0;
-     .main-header{
-       font-size: 6.5rem;
-       max-width: 800px;
+  @media only screen and (min-width: 1000px) {
+    padding: 4rem 0;
+    .main-header {
+      font-size: 6.5rem;
+      max-width: 800px;
     }
-     .footer {
-       padding: 4rem 0;
-
-     }
-     .links {
-       max-width: 150px;
-     }
-     .footer-links + .footer-links{
-       margin-left: 2rem;
-     }
-      .svg{
-        width: 36px;
-        height: 36px;
-       
-      }
-    
-   }
- 
+    .footer-hero {
+      padding: 4rem 0;
+    }
+    .links {
+      max-width: 150px;
+    }
+    .footer-links + .footer-links {
+      margin-left: 2rem;
+    }
+    .svg {
+      width: 36px;
+      height: 36px;
+    }
+  }
 }
-
- 
-
- 
-

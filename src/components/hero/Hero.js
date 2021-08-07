@@ -10,7 +10,11 @@ const Hero = () => {
             <h3 className="main-header">Hi👋, I'm Saheed Olakunle</h3>
           </Fade>
           <Fade top cascade>
-            <p className="hello">Front-End Developer</p>
+            <p className="hello">
+              I’m a Front-end Developer with a Computer Science foundation from
+              LAGOS . I am very passionate about the web and writing clean code
+              that helps to solve real-world problems
+            </p>
             <div className="resume-container">
               <a
                 href="https://drive.google.com/file/d/1QV7uhYWQgldPpntjD3_foxNUXDb9p1Lr/view?usp=sharing"
@@ -20,7 +24,7 @@ const Hero = () => {
                 <button className="resume"> resume</button>
               </a>
             </div>
-            <footer className="footer" id="footer">
+            <footer className="footer-hero">
               <div className="footer-wrapper">
                 <div className="links">
                   <a

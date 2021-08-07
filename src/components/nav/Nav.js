@@ -3,6 +3,7 @@ import "./nav.css";
 
 import { Divide as Hamburger } from "hamburger-react";
 import { Link as LinkScroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -19,7 +20,9 @@ const Nav = () => {
     <div className="container">
       <nav className={scrollActive ? "navbar fixed" : "navbar"}>
         <div className="navbar-one">
-          <h1 className="logo">OLAKUNLE</h1>
+          <LinkScroll to="home">
+            <h1 className="logo">OLAKUNLE</h1>
+          </LinkScroll>
 
           <div className={`${showLinks ? "hamburger open-icon" : "hamburger"}`}>
             <Hamburger size={24} toggled={showLinks} toggle={setShowLinks} />
@@ -39,9 +42,7 @@ const Nav = () => {
                 onSetActive={() => {
                   setActiveLink("home");
                 }}
-                className={
-                  activeLink === "home" ? "link-list active" : "link-list"
-                }
+                className={activeLink === "home" ? "link-list " : "link-list"}
               >
                 home
               </LinkScroll>
@@ -58,7 +59,7 @@ const Nav = () => {
                   setActiveLink("projects");
                 }}
                 className={
-                  activeLink === "projects" ? "link-list active" : "link-list"
+                  activeLink === "projects" ? "link-list " : "link-list"
                 }
               >
                 Projects
@@ -76,9 +77,7 @@ const Nav = () => {
                 onSetActive={() => {
                   setActiveLink("skills");
                 }}
-                className={
-                  activeLink === "skills" ? "link-list active" : "link-list"
-                }
+                className={activeLink === "skills" ? "link-list" : "link-list"}
               >
                 Skills
               </LinkScroll>
