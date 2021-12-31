@@ -11,16 +11,14 @@ const Hero = () => {
           </Fade>
           <Fade top cascade>
             <p className="hello">
-              I’m a Front-end Developer with a Computer Science foundation from
-              LAGOS . I am very passionate about the web and writing clean code
-              that helps to solve real-world problems.
+              I’m a Front-end Developer from LAGOS . I am curious about the web
+              and writing clean code that helps to solve real-world problems.
             </p>
             <div className="resume-container">
               <a
                 href="https://drive.google.com/file/d/1QV7uhYWQgldPpntjD3_foxNUXDb9p1Lr/view?usp=sharing"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <button className="resume"> resume</button>
               </a>
             </div>
@@ -30,8 +28,7 @@ const Hero = () => {
                   <a
                     href="https://twitter.com/olakunle_exxdee"
                     target="_blank"
-                    rel="noreferrer"
-                  >
+                    rel="noreferrer">
                     <div className="footer-links">
                       <svg
                         width="24"
@@ -39,8 +36,7 @@ const Hero = () => {
                         viewBox="0 0 22 19"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="svg"
-                      >
+                        className="svg">
                         <path
                           fillRule="evenodd"
                           clipRule="evenodd"
@@ -53,8 +49,7 @@ const Hero = () => {
                   <a
                     href="https://www.linkedin.com/in/saheed-olakunle-ogunsolu-2a5578198/"
                     target="_blank"
-                    rel="noreferrer"
-                  >
+                    rel="noreferrer">
                     <div className="footer-links">
                       <svg
                         width="24"
@@ -62,8 +57,7 @@ const Hero = () => {
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="svg"
-                      >
+                        className="svg">
                         <path
                           fillRule="evenodd"
                           clipRule="evenodd"
@@ -76,8 +70,7 @@ const Hero = () => {
                   <a
                     href="https://github.com/olakunle-exxdee"
                     target="_blank"
-                    rel="noreferrer"
-                  >
+                    rel="noreferrer">
                     <div className="footer-links">
                       <svg
                         width="24"
@@ -85,8 +78,7 @@ const Hero = () => {
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="svg"
-                      >
+                        className="svg">
                         <path
                           fillRule="evenodd"
                           clipRule="evenodd"
